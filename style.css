@@ -3,7 +3,21 @@ body{
     margin: 0;
     min-height: 100vh;
 }
+.header{
+    background-color: #082a31;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
 
+a{
+    color: white;
+    text-decoration: none;
+}
 .footer{
     background-color: #082a31;
     color: white;
